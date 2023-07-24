@@ -12,7 +12,7 @@ My reserving appointment website project is designed to streamline the method of
 
 4. Real-Time Notifications: specialists get hold of instant notifications whilst a client requests an appointment, enabling them to reply right away. Likewise, clients receive confirmation and reminder notifications to keep away from lacking their scheduled appointments.
 
-5. Secure verbal exchange: Our platform gives an easy messaging capability, allowing specialists and customers to talk directly regarding any specific requirements or queries. This guarantees an unbroken and handy communication channel among each party.
+5. Secure verbal exchange: Our platform provides easy messaging, allowing specialists and customers to talk directly regarding any specific requirements or queries. This guarantees an unbroken and handy communication channel among each party.
 
 6. Automated Reminders: To lessen no-indicates and enhance standard efficiency, automated reminders are despatched to clients beforehand of their scheduled appointments. These reminders can be custom designed based totally on the expert's alternatives.
 
