@@ -1,36 +1,41 @@
 <template>
   <main>
-    <div class="container">
-      <div class="top">
-        <h1>Helping you Book an appointment easily</h1>
-      </div>
-      <div class="bottom">
-        <p>
-          Booking made easy by bookie book you favourite expert from the comfort
-          of your home or office fast and efficient .no more ques and delays
-        </p>
-        <div class="btns">
-          <ActionBtn classname="black" text="Get Started" />
-          <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="36"
-              height="34"
-              viewBox="0 0 36 34"
-              fill="none"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M18.0201 33.8115C27.6639 33.8115 35.4817 26.423 35.4817 17.3088C35.4817 8.19458 27.6639 0.806061 18.0201 0.806061C8.37636 0.806061 0.558533 8.19458 0.558533 17.3088C0.558533 26.423 8.37636 33.8115 18.0201 33.8115Z"
-                fill="black"
-              />
-            </svg>
-            How to Book
-          </button>
+    <section class="sect1">
+      <div class="container">
+        <div class="top">
+          <h1>Helping you Book an appointment easily</h1>
+        </div>
+        <div class="bottom">
+          <p>
+            Booking made easy by bookie book you favourite expert from the
+            comfort of your home or office fast and efficient .no more ques and
+            delays
+          </p>
+          <div class="btns">
+            <ActionBtn classname="black" text="Get Started" />
+            <button class="btn-color">
+              <i class="fa-solid fa-circle-play"></i>
+              How to Book
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- sect 2 -->
+    <section class="sect2">
+      <div class="container round">
+        <div class="rounded-div">
+          <h2>About company</h2>
+        </div>
+        <div class="left-div">
+          <p>
+            Bookie is a platform that helps you book an appointment with your
+            favourite expert from the comfort of your home or office fast and
+            efficient .no more ques and delays
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -39,15 +44,94 @@ import ActionBtn from "@/components/ActionBtn.vue";
 </script>
 <style lang="scss" scoped>
 main {
-  background-image: url("../assets/images/hero-image.png");
+  background: url("../assets/images/hero-image.png"),
+    lightgray 50% / cover no-repeat;
+  background-position: right;
 
-  .top{
-    
+  .top {
+    padding-block: 2em;
+    h1 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 4rem;
+      line-height: 4.5rem;
+      width: 45%;
+      font-weight: 400;
+      color: #111;
+    }
   }
   .bottom {
-    .black {
-      background-color: black;
-      color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20em;
+    p {
+      line-height: 1.5rem;
+      font-size: 1rem;
+      font-family: "Lato", sans-serif;
+      color: #111;
+      font-weight: 400;
+      width: 27%;
+    }
+    .btns {
+      display: flex;
+      flex-direction: row;
+      gap: 2em;
+      margin-top: 5em;
+      .black {
+        background-color: black;
+        color: white;
+      }
+      .btn-color {
+        border-radius: 1.75rem;
+        background: rgba(17, 17, 17, 0.08);
+        width: 14.52863rem;
+        height: 2.83644rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        color: #111;
+        font-family: "Lato", sans-serif;
+        gap: 2em;
+        padding: 0.5em;
+        font-size: 1rem;
+
+        svg {
+          color: #000;
+        }
+      }
+    }
+  }
+  .round {
+    display: flex;
+    flex-direction: row;
+    width: 79.90631rem;
+    margin-inline: auto;
+    .rounded-div {
+      border-radius: 31.25rem 0rem 0rem 31.25rem;
+      background: #fff;
+      width: 21.875rem;
+      height: 21.875rem;
+      border-right: 3px solid #c4d4ff;
+      display: grid;
+      place-items: center;
+      h2 {
+        color: #0048ff;
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        width: 50%;
+      }
+    }
+    .left-div {
+      background: #c4d4ff;
+      p{
+        color: #222;
+        font-size: 1.375rem;
+        font-weight: 400;
+        font-family: "Lato",sans-serif;
+        line-height: 2.5rem;
+        padding: 2em;
+        
+      }
     }
   }
 }
