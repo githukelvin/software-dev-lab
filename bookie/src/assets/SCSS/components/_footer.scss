@@ -1,0 +1,79 @@
+footer{
+    background: var(--Dark, #0A142F);
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1em;
+    padding-block: 3em;
+
+    h1 {
+        font-size: 1.125rem;
+        color: #fff;
+        font-family: 'Playfair Display',
+            serif;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+    .learn,.tickets,.contacts ,.socials{
+        display: flex;
+        flex-direction: column;
+        ul{
+            margin-top: 1em;
+            li{
+                    padding-top: 1em;
+
+                a{
+                    color: var(--White, #b6aeae);
+                    font-size: 0.875rem;
+                    font-family: 'Lato',
+                    sans-serif;
+                    &:hover {
+                        color: #00A676;
+                    }
+                   text-transform: capitalize; 
+                }
+            }
+        }
+    }
+    .socials{
+        ul{
+            display: flex;
+            gap: 1em;
+            li{
+                padding-top: 0;
+                a{
+                    color: var(--White, #ccc);
+                  
+                }
+            }
+        }
+    }
+    position:relative;
+    &::after{
+        content: "";
+        width: 67.0625rem;
+        height: 0.0625rem;
+        border: 1px solid var(--White, #FFF);
+        opacity: 0.15;
+        background: var(--White, #FFF);
+        position: absolute;
+        bottom:10px;
+        left:15%;
+    }
+}
+
+svg,.fa-brands {
+    color: #ccc;
+    font-size: 2em;
+    &:hover {
+        color: #00A676;
+    }
+}
+
+.copyright{
+    text-align: center;
+    padding-block: 1em;
+    color: #ccc;
+    font-family: 'Lato',sans-serif;
+}

@@ -1,0 +1,17 @@
+.logo {
+    a {
+        color: #29a791;
+        font-family: "Leckerli One", cursive;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: normal;
+    }
+}
+a{
+    &:hover {
+        color: #00A676;
+    }
+
+}
