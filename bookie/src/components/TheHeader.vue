@@ -14,8 +14,8 @@
         </ul>
       </div>
       <div class="actionbtns">
-        <ActionBtn classname="login" text="Login" />
-        <ActionBtn classname="register" text="Register" />
+        <ActionBtn toLink="login" classname="login" text="Login" />
+        <ActionBtn toLink="register" classname="register" text="Register" />
       </div>
     </div>
   </header>

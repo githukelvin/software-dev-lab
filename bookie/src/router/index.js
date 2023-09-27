@@ -55,6 +55,28 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/",
+    component: () =>
+      import(
+        /* webpackChunkName: "System Page" */ "@/layouts/SystemLayout.vue"
+      ),
+    children: [
+      {
+        path: "/404",
+        name: "404",
+        component: () =>
+          import(/* webpackChunkName: "error page" */ "@/views/FourO4Page.vue"),
+        meta: {
+          pageTitle: "404",
+        },
+      },
+    ],
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/404",
+  },
 ];
 
 const router = createRouter({
