@@ -1,8 +1,6 @@
 <template>
   <div class="main">
-    <main>
-      <router-view></router-view>
-    </main>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -13,5 +11,7 @@
   width: 100vw;
   height: 100dvh;
   background: #2b2d42;
+  display: grid;
+  place-items: center;
 }
 </style>

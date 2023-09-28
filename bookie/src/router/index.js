@@ -57,6 +57,28 @@ const routes = [
   },
   {
     path: "/",
+    component: () => import("@/layouts/AuthLayout.vue"),
+    children: [
+      {
+        path: "/login",
+        name: "login",
+        component: () => import("@/views/Auth/LoginPage.vue"),
+        meta: {
+          pageTitle: "login",
+        },
+      },
+      {
+        path: "/register",
+        name: "register",
+        component: () => import("@/views/Auth/RegisterPage.vue"),
+        meta: {
+          pageTitle: "register",
+        },
+      },
+    ],
+  },
+  {
+    path: "/",
     component: () =>
       import(
         /* webpackChunkName: "System Page" */ "@/layouts/SystemLayout.vue"
