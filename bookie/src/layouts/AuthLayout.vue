@@ -10,6 +10,7 @@
       <p>Welcome Back</p>
       <router-view></router-view>
       <div class="ddd">
+        <router-link to="/home">Home</router-link>
         <a href="/">Plans</a>
         <a href="/">Terms</a>
         <a href="/">Pricing</a>
@@ -36,18 +37,14 @@
   .rightSide {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 5em;
     p {
       font-family: "Open Sans", sans-serif;
       font-size: 2rem;
       color: #000;
       font-weight: 600;
-      margin-bottom: 2em;
-    }
-    img {
-      width: 100%;
-      object-fit: contain;
+      margin-bottom: 1em;
     }
     .ddd {
       display: flex;

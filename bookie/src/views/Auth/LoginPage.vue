@@ -3,20 +3,21 @@
     <div class="form-group">
       <VForm class="form">
         <div class="fheading">
-          <p>Login in here</p>
+          <h2>Login in here</h2>
           <p>
-            New here <router-link to="register">Create Account</router-link>
+            New here <router-link to="register">Create Account ?</router-link>
           </p>
         </div>
 
-        <!-- form groups -->
-        <div class="form-group">
+        <!-- input groups -->
+        <div class="input-group">
           <label>Email</label>
           <Field
             type="email"
             placeholder="Enter Email Address"
             name="email"
             autocomplete="off"
+            class="input-field"
           />
           <div class="message">
             <div class="info">
@@ -25,13 +26,17 @@
           </div>
         </div>
 
-        <!-- Seconf form group -->
-        <div class="form-group">
-          <label>Password</label>
+        <!-- Seconf input group -->
+        <div class="input-group">
+          <div class="labels">
+            <label>Password</label>
+            <router-link to="/forgot">Forgot Password</router-link>
+          </div>
           <Field
             type="password"
             placeholder="Enter Password"
             name="password"
+            class="input-field"
             autocomplete="off"
           />
           <div class="message">
@@ -42,7 +47,9 @@
         </div>
         <!-- Actions -->
         <div class="btns">
-          <button type="submit" class="submitBtn" ref="submitButton"></button>
+          <button type="submit" class="submitBtn" ref="submitButton">
+            Login
+          </button>
         </div>
       </VForm>
     </div>
