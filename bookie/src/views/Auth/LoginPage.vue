@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="form-group">
-      <VForm class="form">
+      <VForm class="form" :validation-schema="login">
         <div class="fheading">
           <h2>Login in here</h2>
           <p>
@@ -58,6 +58,12 @@
 
 <script setup>
 import { Form as VForm, ErrorMessage, Field } from "vee-validate";
+import * as Yup from "yup";
+
+const login = Yup.object().shape({
+  email: Yup.string().email().required().label("Email"),
+  password: Yup.string().min(8).required().label("Password"),
+});
 </script>
 
 <style lang="scss" scoped></style>

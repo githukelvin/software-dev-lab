@@ -1,0 +1,36 @@
+/* Hide the default checkbox */
+.custom-checkbox {
+    display: none;
+}
+
+/* Style the custom checkbox */
+.custom-checkbox+label {
+    position: relative;
+    padding-left: 30px;
+    /* Adjust the spacing as needed */
+    cursor: pointer;
+}
+
+/* Create the checkbox design */
+.custom-checkbox+label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    /* Adjust the size as needed */
+    height: 20px;
+    /* Adjust the size as needed */
+    border: 2px solid #333;
+    /* Border color */
+    background-color: #fff;
+    /* Background color */
+}
+
+/* Style the checkbox when checked */
+.custom-checkbox:checked+label:before {
+    background-color: #00a0e8;
+    /* Change to your desired checked color */
+    border: 2px solid #00a0e8;
+    /* Change to your desired checked color */
+}

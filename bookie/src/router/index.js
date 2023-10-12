@@ -75,6 +75,14 @@ const routes = [
           pageTitle: "register",
         },
       },
+      {
+        path: "IsAClientProffesional",
+        name: "IsAClientProffesional",
+        component: () => import("@/views/Auth/IsAClientProffesional.vue"),
+        meta: {
+          pageTitle: "Category",
+        },
+      },
     ],
   },
   {

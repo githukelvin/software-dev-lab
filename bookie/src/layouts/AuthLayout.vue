@@ -10,7 +10,7 @@
       <p>Welcome Back</p>
       <router-view></router-view>
       <div class="ddd">
-        <router-link to="/home">Home</router-link>
+        <router-link to="/">Home</router-link>
         <a href="/">Plans</a>
         <a href="/">Terms</a>
         <a href="/">Pricing</a>
@@ -26,7 +26,7 @@
 .auth {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100dvh;
+  //height: 100dvh;
   background: #55dde0;
   .leftSide {
     img {
@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5em;
+    padding: 5em 5em 0 5em;
     p {
       font-family: "Open Sans", sans-serif;
       font-size: 2rem;
@@ -50,7 +50,8 @@
       display: flex;
       flex-direction: row;
       gap: 1em;
-      margin-top: 2em;
+      margin-top: 1em;
+      //padding-bottom: 2em;
       a {
         font-family: "Open Sans", sans-serif;
         font-size: 1rem;
