@@ -1,21 +1,25 @@
 <template>
-  <div>
-    <p class="top">Which role or you purpose in this website</p>
-    <p>
-      You Just want to book an appointment with your favourite proffesional
-      <br />.Continue as Client
-    </p>
-    <p>
-      Are you a proffesional and you want to automate and make it easy for your
-      appointments <br />continue as proffesional
-    </p>
+  <div class="content">
+    <p class="top">Who Are You ?</p>
+
     <div class="btns">
+      <p>
+        You Just want to book an appointment with your favourite proffesional
+        <br />.Continue as Client
+      </p>
       <ActionBtn toLink="IsAClient" classname="client" text="Client" />
+    </div>
+    <div class="btns">
+      <p>
+        Are you a proffesional and you want to automate and make it easy for
+        your appointments <br />.Continue as proffesional
+      </p>
       <ActionBtn
         toLink="IsAProffesional"
         classname="proffesional"
         text="Proffesional"
       />
+      <!-- codec54321 -->
     </div>
   </div>
 </template>
@@ -30,6 +34,9 @@ import ActionBtn from "@/components/ActionBtn.vue";
   font-weight: 500;
   font-family: "Lato", sans-serif;
   text-align: center;
+  padding: 1em;
+  font-size: 1.5em;
+  color: #fd5200;
 }
 .proffesional {
   background: #000;
@@ -39,9 +46,18 @@ import ActionBtn from "@/components/ActionBtn.vue";
 }
 .btns {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1em;
-  margin-block: 2em;
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: center;
+  padding-block: 2em;
+}
+.content {
+  margin-bottom: 2em;
 }
 </style>
