@@ -1,0 +1,312 @@
+{
+  "professionals": [
+    {
+      "profession": "Technology and IT Consultants",
+      "specialties": [
+        "Network Administrator",
+        "Database Administrator",
+        "Web Developer",
+        "Systems Analyst",
+        "IT Project Manager",
+        "Cloud Solutions Architect",
+        "Software Engineer",
+        "DevOps Engineer",
+        "Data Scientist",
+        "Cybersecurity Analyst",
+        "AI and Machine Learning Specialist",
+        "Blockchain Developer",
+        "Mobile App Developer",
+        "ERP Consultant",
+        "Quality Assurance (QA) Engineer",
+        "IT Support Specialist",
+        "Computer Forensics Expert",
+        "IT Trainer",
+        "IoT (Internet of Things) Consultant",
+        "Big Data Analyst",
+        "UI/UX Designer",
+        "IT Compliance Specialist",
+        "IT Strategy Consultant",
+        "Technology Procurement Specialist"
+      ],
+      "description": "Professionals in the field of information technology and consulting, providing expertise and support for various technology-related projects and solutions.",
+      "location": "Tech companies, consulting firms, and IT departments",
+      "availability": "By appointment, project-based consulting, or technical support services",
+      "fees": "Varies by service, expertise, and project complexity"
+    },
+    {
+      "profession": "Consultants and Coaches",
+      "specialties": [
+        "Business Consultant",
+        "Leadership Coach",
+        "Career Advisor",
+        "Executive Coach",
+        "Management Consultant",
+        "Organizational Development Consultant",
+        "HR Consultant",
+        "Sales Coach",
+        "Marketing Consultant",
+        "Public Speaking Coach",
+        "Financial Consultant",
+        "Strategy Consultant",
+        "Change Management Specialist",
+        "Diversity and Inclusion Consultant",
+        "Life Coach",
+        "Executive Presence Coach",
+        "Team Building Consultant",
+        "Conflict Resolution Specialist",
+        "Wellness Coach",
+        "Agile Coach",
+        "Project Management Consultant",
+        "Productivity Coach",
+        "Sustainability Consultant",
+        "Health and Safety Advisor"
+      ],
+      "description": "Professionals in the field of consulting and coaching who provide expert guidance for professional development, business improvement, and personal growth.",
+      "location": "Consulting firms, coaching centers, and corporate offices",
+      "availability": "By appointment, coaching sessions, or consulting engagements",
+      "fees": "Varies by service, expertise, and consulting/coaching duration"
+    },
+    {
+      "profession": "Automotive Services",
+      "specialties": [
+        "Mechanic",
+        "Auto Detailer",
+        "Tire Technician",
+        "Body Shop Technician",
+        "Auto Electrician",
+        "Brake Specialist",
+        "Transmission Specialist",
+        "Suspension and Steering Specialist",
+        "Diagnostic Technician",
+        "Mobile Mechanic",
+        "Classic Car Restorer",
+        "Motorcycle Mechanic",
+        "Fleet Maintenance Technician",
+        "RV and Trailer Technician"
+      ],
+      "description": "Professionals who specialize in vehicle repairs, maintenance, and related services for various types of automobiles and vehicles.",
+      "location": "Auto repair shops, service centers, mobile services, and specialty automotive facilities",
+      "availability": "By appointment, walk-in, or mobile service arrangements",
+      "fees": "Varies by service, repair type, and vehicle type"
+    },
+    {
+      "profession": "Photography and Videography",
+      "specialties": [
+        "Wedding Photographer",
+        "Cinematographer",
+        "Portrait Photographer"
+      ],
+      "description": "Photography and videography experts for various occasions and projects.",
+      "location": "Photo studios and on-location",
+      "availability": "By appointment or event-based",
+      "fees": "Varies by service and package"
+    },
+    {
+      "profession": "Interior Design and Decor",
+      "specialties": [
+        "Interior Designer",
+        "Home Stager",
+        "Furniture Consultant"
+      ],
+      "description": "Professionals specializing in interior design and home decor.",
+      "location": "Design firms and showrooms",
+      "availability": "By appointment or consultation",
+      "fees": "Varies by project and design scope"
+    },
+    {
+      "profession": "Culinary Arts and Catering",
+      "specialties": ["Chef", "Baker", "Caterer"],
+      "description": "Culinary professionals offering cooking and catering services.",
+      "location": "Restaurants, bakeries, and catering companies",
+      "availability": "By appointment or event-based",
+      "fees": "Varies by service and event size"
+    },
+    {
+      "profession": "Social Media and Marketing",
+      "specialties": [
+        "Social Media Manager",
+        "Marketing Strategist",
+        "SEO Specialist"
+      ],
+      "description": "Marketing experts specializing in social media and online marketing strategies.",
+      "location": "Marketing agencies and freelance",
+      "availability": "By appointment or project-based",
+      "fees": "Varies by service and marketing campaign"
+    },
+    {
+      "profession": "Environmental Consulting",
+      "specialties": [
+        "Environmental Scientist",
+        "Sustainability Consultant",
+        "Ecologist"
+      ],
+      "description": "Professionals focused on environmental and sustainability issues.",
+      "location": "Environmental firms and consulting agencies",
+      "availability": "By appointment or project-based",
+      "fees": "Varies by service and project scope"
+    },
+    {
+      "profession": "Fitness and Nutrition Expert",
+      "specialties": ["Dietitian", "Physical Therapist", "Fitness Trainer"],
+      "description": "Experts in physical health, diet, and nutrition.",
+      "location": "Fitness centers, healthcare facilities, and wellness centers",
+      "availability": "By appointment or session-based",
+      "fees": "Varies by service and duration"
+    },
+    {
+      "profession": "Financial Advisors",
+      "specialties": [
+        "Financial Planner",
+        "Tax Consultant",
+        "Investment Advisor",
+        "Wealth Manager",
+        "Retirement Planner",
+        "Estate Planning Advisor",
+        "Insurance Advisor",
+        "Stock Broker",
+        "Certified Public Accountant (CPA)",
+        "Financial Analyst",
+        "Debt Counselor",
+        "Mortgage Broker",
+        "Business Financial Consultant",
+        "Risk Management Specialist",
+        "Socially Responsible Investing Advisor"
+      ],
+      "description": "Financial professionals who offer a range of financial planning and wealth management services to individuals and businesses.",
+      "location": "Financial firms, consulting firms, banks, and online platforms",
+      "availability": "By appointment, financial consultation, or online services",
+      "fees": "Varies by financial service, complexity, and billing structure (hourly, flat fee, or commission)"
+    },
+    {
+      "profession": "Beauty and Spa Services",
+      "specialties": [
+        "Hairstylist",
+        "Esthetician",
+        "Massage Therapist",
+        "Manicurist/Pedicurist",
+        "Makeup Artist",
+        "Spa Therapist",
+        "Barber",
+        "Skincare Specialist",
+        "Hair Colorist",
+        "Nail Technician",
+        "Lash and Brow Artist",
+        "Waxing Specialist",
+        "Aromatherapist",
+        "Reiki Practitioner",
+        "Holistic Spa Practitioner",
+        "Tattoo Artist",
+        "Body Wrap Technician",
+        "Medical Aesthetician",
+        "Hot Stone Massage Therapist",
+        "Reflexologist",
+        "Nail Artist"
+      ],
+      "description": "Professionals in the beauty and spa industry who provide various beauty and relaxation services to enhance personal grooming and well-being.",
+      "location": "Salons, spas, wellness centers, and personal studios",
+      "availability": "By appointment, spa sessions, or salon services",
+      "fees": "Varies by service, duration, and type of beauty or relaxation treatment"
+    },
+    {
+      "profession": "Healthcare Professionals",
+      "specialties": [
+        "Cardiologist",
+        "Dermatologist",
+        "Pediatrician",
+        "Psychiatrist",
+        "General Practitioner",
+        "Oncologist",
+        "Orthopedic Surgeon",
+        "Gynecologist",
+        "Dentist",
+        "Physical Therapist",
+        "Psychologist",
+        "Nurse Practitioner",
+        "Chiropractor",
+        "Radiologist",
+        "Allergist",
+        "Optometrist",
+        "Nutritionist",
+        "Occupational Therapist",
+        "Speech Therapist",
+        "Geriatrician",
+        "Urologist",
+        "Endocrinologist",
+        "Pulmonologist"
+      ],
+      "description": "Healthcare professionals who provide medical and therapeutic services to address a wide range of health conditions and needs.",
+      "location": "Hospitals, medical clinics, dental offices, therapy centers, and healthcare facilities",
+      "availability": "By appointment or scheduled medical sessions",
+      "fees": "Varies by medical service, specialty, and healthcare provider"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "specialties": [
+        "Residential Real Estate Agent",
+        "Commercial Real Estate Agent",
+        "Luxury Real Estate Agent",
+        "Buyer's Agent",
+        "Seller's Agent",
+        "Rental Agent",
+        "Investment Real Estate Agent",
+        "Relocation Specialist",
+        "Foreclosure Specialist",
+        "New Construction Real Estate Agent",
+        "Property Management Specialist",
+        "Land and Farm Real Estate Agent",
+        "Real Estate Auctioneer",
+        "Real Estate Consultant",
+        "Real Estate Appraiser"
+      ],
+      "description": "Professionals who assist clients in buying, selling, renting, or managing real estate properties.",
+      "location": "Real estate agencies, independent offices, and online",
+      "availability": "By appointment or consultation",
+      "fees": "Commission-based on property sale or rental, fees may vary"
+    },
+    {
+      "profession": "Legal Services",
+      "specialties": [
+        "Family Law Attorney",
+        "Estate Planning Attorney",
+        "Business Lawyer",
+        "Criminal Defense Attorney",
+        "Personal Injury Lawyer",
+        "Real Estate Attorney",
+        "Intellectual Property Lawyer",
+        "Bankruptcy Attorney",
+        "Immigration Lawyer",
+        "Environmental Attorney",
+        "Notary Public",
+        "Legal Consultant",
+        "Divorce Mediator",
+        "Employment Attorney"
+      ],
+      "description": "Legal professionals who provide a range of legal advice and services to individuals and businesses in various legal areas.",
+      "location": "Law firms, legal offices, online platforms, and consulting firms",
+      "availability": "By appointment, legal consultation, or online services",
+      "fees": "Varies by legal service, complexity, and billing structure (hourly, flat fee, or contingency)"
+    },
+    {
+      "profession": "Education and Tutoring",
+      "specialties": [
+        "Academic Tutor",
+        "Test Preparation Tutor",
+        "Language Tutor",
+        "Mathematics Tutor",
+        "Science Tutor",
+        "Music Teacher",
+        "Art Teacher",
+        "Online Educator",
+        "Special Education Tutor",
+        "Adult Education Instructor",
+        "Career Counselor",
+        "Study Skills Coach",
+        "Educational Consultant"
+      ],
+      "description": "Professionals who provide educational support, tutoring, and guidance to students and learners of all ages.",
+      "location": "Tutoring centers, schools, online platforms, and educational institutions",
+      "availability": "By appointment or scheduled sessions",
+      "fees": "Varies by subject, duration, and type of tutoring or educational service"
+    }
+  ]
+}

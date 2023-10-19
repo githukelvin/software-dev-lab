@@ -75,12 +75,29 @@ const routes = [
           pageTitle: "register",
         },
       },
+      // C:\Users\user\Downloads\school IBL\software_dev_lab\software-dev-lab\bookie\src\views/Auth/Category/Clientpage.vue
       {
         path: "IsAClientProffesional",
         name: "IsAClientProffesional",
         component: () => import("@/views/Auth/IsAClientProffesional.vue"),
         meta: {
           pageTitle: "Category",
+        },
+      },
+      {
+        path: "IsAClient",
+        name: "IsAClient",
+        component: () => import("@/views/Auth/Category/ClientPage.vue"),
+        meta: {
+          pageTitle: "Clie",
+        },
+      },
+      {
+        path: "IsAProffesional",
+        name: "IsAProffesional",
+        component: () => import("@/views/Auth/Category/ProffesionalPage.vue"),
+        meta: {
+          pageTitle: "Proffesional",
         },
       },
     ],
